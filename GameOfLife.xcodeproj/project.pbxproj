@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		C0B3CFC31CF4FDD3000EE6D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B3CFC21CF4FDD3000EE6D3 /* AppDelegate.swift */; };
-		C0B3CFC51CF4FDD3000EE6D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B3CFC41CF4FDD3000EE6D3 /* ViewController.swift */; };
+		C0B3CFC51CF4FDD3000EE6D3 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B3CFC41CF4FDD3000EE6D3 /* Grid.swift */; };
 		C0B3CFC81CF4FDD3000EE6D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B3CFC61CF4FDD3000EE6D3 /* Main.storyboard */; };
 		C0B3CFCA1CF4FDD3000EE6D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0B3CFC91CF4FDD3000EE6D3 /* Assets.xcassets */; };
 		C0B3CFCD1CF4FDD3000EE6D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B3CFCB1CF4FDD3000EE6D3 /* LaunchScreen.storyboard */; };
+		C0B3CFD51CF60BA9000EE6D3 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B3CFD41CF60BA9000EE6D3 /* Cell.swift */; };
+		C0B3CFD71CF60BDC000EE6D3 /* RandomBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B3CFD61CF60BDC000EE6D3 /* RandomBool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C0B3CFBF1CF4FDD3000EE6D3 /* GameOfLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0B3CFC21CF4FDD3000EE6D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C0B3CFC41CF4FDD3000EE6D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0B3CFC41CF4FDD3000EE6D3 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		C0B3CFC71CF4FDD3000EE6D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0B3CFC91CF4FDD3000EE6D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0B3CFCC1CF4FDD3000EE6D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0B3CFCE1CF4FDD3000EE6D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0B3CFD41CF60BA9000EE6D3 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		C0B3CFD61CF60BDC000EE6D3 /* RandomBool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomBool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				C0B3CFC21CF4FDD3000EE6D3 /* AppDelegate.swift */,
-				C0B3CFC41CF4FDD3000EE6D3 /* ViewController.swift */,
+				C0B3CFC41CF4FDD3000EE6D3 /* Grid.swift */,
+				C0B3CFD41CF60BA9000EE6D3 /* Cell.swift */,
 				C0B3CFC61CF4FDD3000EE6D3 /* Main.storyboard */,
 				C0B3CFC91CF4FDD3000EE6D3 /* Assets.xcassets */,
 				C0B3CFCB1CF4FDD3000EE6D3 /* LaunchScreen.storyboard */,
 				C0B3CFCE1CF4FDD3000EE6D3 /* Info.plist */,
+				C0B3CFD61CF60BDC000EE6D3 /* RandomBool.swift */,
 			);
 			path = GameOfLife;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0B3CFC51CF4FDD3000EE6D3 /* ViewController.swift in Sources */,
+				C0B3CFD71CF60BDC000EE6D3 /* RandomBool.swift in Sources */,
+				C0B3CFC51CF4FDD3000EE6D3 /* Grid.swift in Sources */,
 				C0B3CFC31CF4FDD3000EE6D3 /* AppDelegate.swift in Sources */,
+				C0B3CFD51CF60BA9000EE6D3 /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

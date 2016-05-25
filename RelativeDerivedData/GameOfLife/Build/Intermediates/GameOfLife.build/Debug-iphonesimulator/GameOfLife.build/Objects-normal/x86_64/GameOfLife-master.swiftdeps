@@ -1,0 +1,8 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "c852ca61b12704cf5fc5048106b1e2da"
+build_time: [517524883, 640098000]
+inputs:
+  "/Users/ryanfriedman/Desktop/Projects/iOS/GameOfLife/GameOfLife/RandomBool.swift": [517514523, 0]
+  "/Users/ryanfriedman/Desktop/Projects/iOS/GameOfLife/GameOfLife/Grid.swift": [517524872, 0]
+  "/Users/ryanfriedman/Desktop/Projects/iOS/GameOfLife/GameOfLife/AppDelegate.swift": [517440211, 0]
+  "/Users/ryanfriedman/Desktop/Projects/iOS/GameOfLife/GameOfLife/Cell.swift": [517524881, 0]
